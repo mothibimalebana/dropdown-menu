@@ -96,6 +96,22 @@ button {
 #service {
   color: #75227d;
 }
-.megaMenu {
+.navItem {
+  gap: 3rem;
   position: relative;
+}
+.megaMenu {
+  display: none;
+  position: absolute;
+  top: 3rem;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.visible {
+  display: flex;
+  position: absolute;
+  top: 3rem;
+  flex-direction: column;
+  gap: 1rem;
 }

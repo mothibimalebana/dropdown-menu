@@ -107,7 +107,6 @@ button {
   flex-direction: column;
   gap: 1rem;
 }
-
 .visible {
   display: flex;
   position: absolute;
